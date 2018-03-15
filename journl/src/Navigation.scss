@@ -1,10 +1,12 @@
 nav {
+  max-width: 45rem;
+  margin: 2rem auto;
   ul {
-    padding: 1rem 2rem;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
     li {
       flex-grow: 1;
       a {

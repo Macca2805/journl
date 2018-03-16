@@ -1,11 +1,13 @@
 article {
-  width: 100%;
-  max-width: 45rem;
-  margin: 2rem auto; }
+  margin: 2rem; }
+  @media screen and (min-width: 50rem) {
+    article {
+      width: 100%;
+      max-width: 45rem;
+      margin: 2rem auto; } }
   article h1, article h2, article h3, article h4, article h5, article h6, article p {
     font-family: 'IBM Plex Sans', sans-serif;
-    padding: 0;
-    margin: 1rem 0; }
+    padding: 0; }
   article h1 {
     font-size: 2rem; }
   article .article-byline {

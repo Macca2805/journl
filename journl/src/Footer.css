@@ -6,10 +6,14 @@ footer {
     margin: 0 auto;
     padding: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around; }
+    @media screen and (min-width: 35rem) {
+      footer .footer-container {
+        flex-direction: row; } }
     footer .footer-container .footer-column {
-      flex-grow: 1; }
+      flex-grow: 1;
+      margin: 1rem 0; }
     footer .footer-container ul {
       list-style: none;
       padding: 0;

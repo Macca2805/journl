@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 class Home extends Component {
@@ -26,13 +27,14 @@ class Home extends Component {
                 <div
                   key={i}
                   className='articles-list-item'>
-                  <a 
+                  <Link
+                    to={`article/${a.id}`} 
                     className='article'
                     href='#article'
                     style={{ backgroundImage: `url(${a.mainImage.reference})` }}>
                     <div className='head-kicker'>{a.headKicker}</div>
                     <h1>{a.heading}</h1>
-                  </a>
+                  </Link>
                 </div>
               );
             })

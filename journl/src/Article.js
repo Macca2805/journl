@@ -4,15 +4,16 @@ import './Article.css'
 class Article extends Component {
   constructor(props) {
     super(props);
-    this.state = { id: this.props.id };
+    this.state = {};
   }
   componentWillMount() {
-    const { id } = this.props;
+    const { id } = this.props.match.params;
     return fetch(`https://content.thewest.com.au/publication/${id}`)
       .then(response => response.json())
       .then(json => {
         const title = json.items.find(i => i.kind === 'heading').text;
-        const byline = json.items.find(i => i.kind === 'byline').text;
+        const byline = json.items.find(i => i.kind === 'byline')
+          && json.items.find(i => i.kind === 'byline').text;
         const mainImageName = json.items.find(i => i.kind === 'main-image').name;
         const headerImage = json.assets.find(i => i.name === mainImageName).original.reference;
         const content = json.items.find(i => i.kind === 'content').blocks;

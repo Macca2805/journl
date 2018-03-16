@@ -1,3 +1,6 @@
 header {
-  padding: 2rem;
   background: #fff; }
+  header .header-container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem; }

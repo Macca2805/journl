@@ -5,7 +5,9 @@ class Header extends Component {
   render() {
     return (
       <header>
-        Journl News Network
+          <div className='header-container'>
+            Journl News Network
+          </div>
       </header>
     );
   }

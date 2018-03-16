@@ -2,7 +2,7 @@
   "name": "journl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://macklin.me/journl",
+  "homepage": "https://macca2805.github.io/journl",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "node-sass-chokidar": "^1.1.0",

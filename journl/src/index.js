@@ -5,7 +5,6 @@ import Home from './Home';
 import Article from './Article';
 import Footer from './Footer';
 import { BrowserRouter as Router  , Route } from 'react-router-dom';
-import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 ReactDOM.render(

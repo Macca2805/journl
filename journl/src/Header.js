@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './Header.css'
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
   render() {
     return (
       <header>
           <div className='header-container'>
-            Journl News Network
+            <Link to='/'>Journl News Network</Link> 
           </div>
       </header>
     );

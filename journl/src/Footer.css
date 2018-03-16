@@ -18,9 +18,10 @@ footer {
       list-style: none;
       padding: 0;
       margin: 0; }
-      footer .footer-container ul li a {
-        display: block;
-        padding: 0 0 0.5rem 0;
-        color: #ddd; }
-        footer .footer-container ul li a:hover {
-          color: #eee; }
+      footer .footer-container ul li {
+        padding: 0 0 0.5rem 0; }
+        footer .footer-container ul li a {
+          display: inline-block;
+          color: #ddd; }
+          footer .footer-container ul li a:hover {
+            color: #eee; }

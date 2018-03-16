@@ -11,8 +11,8 @@ ReactDOM.render(
   <Router>
     <div className='app'>
       <Header />
-      <Route exact path="/" component={Home} />
-      <Route path="/article/:id" component={Article} />
+      <Route exact path="/journl" component={Home} />
+      <Route path="/journl/article/:id" component={Article} />
       <Footer />
     </div>
   </Router>

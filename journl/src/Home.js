@@ -28,7 +28,7 @@ class Home extends Component {
                   key={i}
                   className='articles-list-item'>
                   <Link
-                    to={`article/${a.id}`} 
+                    to={`/journl/article/${a.id}`} 
                     className='article'
                     href='#article'
                     style={{ backgroundImage: `url(${a.mainImage.reference})` }}>

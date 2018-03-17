@@ -1,6 +1,11 @@
 header {
-  background: #fff; }
+  background: #4834d4; }
   header .header-container {
     max-width: 60rem;
     margin: 0 auto;
     padding: 2rem; }
+    header .header-container a {
+      color: #fff;
+      text-decoration: none; }
+      header .header-container a:hover {
+        text-decoration: none; }

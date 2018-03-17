@@ -1,6 +1,6 @@
 footer {
-  background: #2f3542;
-  color: #fff;
+  background: #f1f2f6;
+  color: #333;
   .footer-container {
     max-width: 60rem;
     margin: 0 auto;
@@ -23,9 +23,9 @@ footer {
         padding: 0 0 0.5rem 0;
         a {
           display: inline-block;
-          color: #ddd;
+          color: #333;
           &:hover {
-            color: #eee;
+            color: #555;
           }
         }
       }

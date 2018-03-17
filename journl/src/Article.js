@@ -18,6 +18,7 @@ class Article extends Component {
         const headerImage = json.assets.find(i => i.name === mainImageName).original.reference;
         const content = json.items.find(i => i.kind === 'content').blocks;
         this.setState((prevState) => ({ title, byline, headerImage, content }));
+        window.scrollTo(0,0);
       });
   }
   render () {

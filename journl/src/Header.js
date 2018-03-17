@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header>
           <div className='header-container'>
-            <Link to='/journl'>Journl News Network</Link> 
+            <Link to='/journl/'>Journl News Network</Link> 
           </div>
       </header>
     );
